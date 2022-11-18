@@ -1,7 +1,7 @@
 <h1 align="center">PÁGINA DE LOGIN</h1>
 
 <p align="center">
-Página web criada como uma página de login e o modelo é voltado para um site que pessoas que gostam de acampar irão utilizar. É uma página de login responsiva e que pode ser alterada para diversos nichos diferentes.
+Página web criada como uma página de login e o modelo é voltado para um site que pessoas que gostam de acampar irão utilizar. É uma página de login responsiva e que pode ser alterada para diversos nichos diferentes. Criada a partir de desafio proposto pela plataforma Rocketseat.
 </p>
 
 <p align="center">
