@@ -1,0 +1,279 @@
+
+
+
+
+body {
+    margin: 0;
+    background-color: #E4DBCD;
+}
+
+.container img {
+    position: relative;
+    height: 100vh;
+    width: 45vw;
+    float: right;
+}
+
+header .marca img {
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.login {
+    margin-top: 5%;
+    margin-left: 6%;
+    background-color: #F1EADD;
+    border-radius: 4px;
+    width: 32%;
+    height: auto;
+    padding: 1%;
+}
+
+.fazer-login {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.primeira-linha h1 {
+    color: #2E2312;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.descricao p {
+    margin-top: 0;
+    color: #574C3A;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.frase1 span {
+    color: #574C3A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.digitar-email input {
+    background-image: url(./assets/e-mail-logo.svg);
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: 2%;
+    background-color: #EFEAE2;
+    border: 1px solid #574C3A;
+    box-shadow: 0px 0px 0px 2px #AD8F5D;
+    border-radius: 4px;
+    width: 80%;
+    padding: 5%;
+    padding-left: 10%;
+    height: fit-content;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.frase2 span {
+    color: #574C3A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.digitar-senha input {
+    background-image: url(./assets/lock.svg), url(./assets/eye.svg);
+    background-size: 6%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2%, 97%;
+    background-color: #EFEAE2;
+    border: 1px solid #574C3A;
+    border-radius: 4px;
+    width: 80%;
+    padding: 5%;
+    padding-left: 10%;
+    height: fit-content;
+    margin-top: 2%;
+    margin-bottom: 3%; 
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 96%;
+}
+
+.confirmar {
+    display: flex;
+    flex-direction: row;
+}
+
+#checkbox {
+    width: 12%;
+    border: 1px solid #574C3A;
+    border-radius: 440px;
+}
+
+.confirmar p {
+    font-family: 'Roboto', sans-serif;
+    color: #574C3A;
+}
+
+.esquecer {
+    font-family: 'Roboto', sans-serif;
+    color: #574C3A;
+}
+
+.entrar button {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    background-color: #574C3A;
+    border-radius: 4px;
+    width: 96%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nao-tem {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #574C3A;
+}
+
+header .marca img:hover {
+    transform: scale(1.04);
+}
+
+header .marca img {
+    transition: transform 0.4s;
+}
+
+header .marca img {
+    animation: appear .7s;
+}
+
+
+.fazer-login:hover {
+    transform: scale(1.04);
+}
+
+.fazer-login {
+    transition: transform 0.4s;
+}
+
+.fazer-login {
+    animation: appear .7s;
+}
+
+.descricao:hover {
+    transform: scale(1.04);
+}
+
+.descricao {
+    transition: transform 0.4s;
+}
+
+.descricao {
+    animation: appear .7s;
+}
+
+.frase1:hover {
+    transform: scale(1.01);
+}
+
+.frase1 {
+    transition: transform 0.4s;
+}
+
+.frase1 {
+    animation: appear .7s;
+}
+
+.frase2:hover {
+    transform: scale(1.01);
+}
+
+.frase2 {
+    transition: transform 0.4s;
+}
+
+.frase2 {
+    animation: appear .7s;
+}
+
+.confirmar p:hover {
+    transform: scale(1.02);
+}
+
+.confirmar p {
+    transition: transform 0.4s;
+}
+
+.confirmar {
+    animation: appear .7s;
+}
+
+.esquecer:hover {
+    transform: scale(1.02);
+}
+
+.esquecer {
+    transition: transform 0.4s;
+}
+
+.esquecer {
+    animation: appear .7s;
+}
+
+button:hover {
+    transform: scale(1.02);
+}
+
+button {
+    transition: transform 0.4s;
+}
+
+button {
+    animation: appear .7s;
+}
+
+.nao-tem:hover {
+    transform: scale(1.04);
+}
+
+.nao-tem {
+    transition: transform 0.4s;
+}
+
+.nao-tem {
+    animation: appear .7s;
+}
+
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 844px){ 
+    .container img {
+        display: none;
+    }
+
+    header .marca img {
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .login {
+        margin-top: 15%;
+        margin-left: 4%;
+        background-color: #F1EADD;
+        border-radius: 4px;
+        width: 90%;
+        height: auto;
+        
+    }
+}
